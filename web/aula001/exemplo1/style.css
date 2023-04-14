@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: skyblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#titulo {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#navMenu {
+    padding: 5px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navMenuLink {
+    color: black;
+    text-decoration: none;
+    height: 35px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navMenuLink:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: rgb(192, 192, 192);
+}

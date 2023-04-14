@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    #textoBusca {
+        color: orange;
+        font-size: 32pt;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    section {
+        background-image: url('./tech.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input#busca {
+        height: 35px;
+        width: 400px;
+        font-size: xx-large;
+    }
+
+    input#submit {
+        height: 42px;
+        width: 160px;
+        font-size: xx-large;
+    }
+
+    footer {
+        margin: 70px 30px;
+    }
+
+</style>
+
+
+<body>
+    <nav>
+        <div id="navMenu">
+            <a class="navMenuLink" href="index.html">Início</a>
+            <a class="navMenuLink" href="busca.html">Busca</a>
+            <a class="navMenuLink" href="formulario.html">Formulário/Tabela</a>
+            <a class="navMenuLink" href="postagem.html">Postagem c/ imagem</a>
+        </div>
+    </nav>
+    
+    <section>
+        <h1 id="textoBusca">Busca de conteúdo</h1>
+        <form action="">
+            <input id="busca" type="text" placeholder="Digite para buscar">
+            <input id="submit" type="submit" value="Pesquisar">
+        </form>
+    </section>
+
+    <footer>
+        <a href="">Sobre a empresa</a><br>
+        <a href="">Contato</a>
+    </footer>
+</body>
+</html>
